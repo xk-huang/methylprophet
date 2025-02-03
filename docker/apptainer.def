@@ -1,0 +1,9 @@
+Bootstrap: docker
+From: nvcr.io/nvidia/pytorch:24.06-py3
+
+%files
+    requirements.txt /workspace/requirements.txt
+
+%post
+    sed -i 's/^torch//' /workspace/requirements.txt && \
+    pip install -r /workspace/requirements.txt
