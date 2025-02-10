@@ -27,7 +27,7 @@
 <strong><sup>1</sup>UC Santa Cruz, <sup>2</sup>Columbia University, <sup>3</sup>Amazon </strong>
 </div>
 
-This repository contains codes, data, protocols, models, and results of "MethylProphet: A Generalized Gene-Contextual Model for Inferring Whole-Genome DNA Methylation Landscape" ([bioRxiv](TBD)).
+This repository contains codes, data, protocols, models, and results of "MethylProphet: A Generalized Gene-Contextual Model for Inferring Whole-Genome DNA Methylation Landscape" ([bioRxiv](https://www.biorxiv.org/content/early/2025/02/08/2025.02.05.636730.full.pdf)).
 
 <details>
 <summary>Abstract</summary>
@@ -80,7 +80,7 @@ Reproduce all the experiments with this codebase [EXPERIMENTS.md](docs/EXPERIMEN
 
 ## License
 
-TBD
+MIT
 
 ## Acknowledgement
 
@@ -91,7 +91,17 @@ Deeply appreciate these wonderful open source projects: [transformers](https://g
 If you find this repository useful, please consider giving a star ⭐ and citation 🦖:
 
 ```
-TBD
+@article {methylprophet2025,
+	author = {Huang, Xiaoke and Liu, Qi and Zhao, Yifei and Tang, Xianfeng and Zhou, Yuyin and Hou, Wenpin},
+	title = {MethylProphet: A Generalized Gene-Contextual Model for Inferring Whole-Genome DNA Methylation Landscape},
+	elocation-id = {2025.02.05.636730},
+	year = {2025},
+	doi = {10.1101/2025.02.05.636730},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2025/02/08/2025.02.05.636730},
+	eprint = {https://www.biorxiv.org/content/early/2025/02/08/2025.02.05.636730.full.pdf},
+	journal = {bioRxiv}
+}
 ```
 
 ## Questions or Feedback?
