@@ -80,7 +80,7 @@ Reproduce all the experiments with this codebase [EXPERIMENTS.md](docs/EXPERIMEN
 
 ## License
 
-MIT
+Apache License Version 2.0
 
 ## Acknowledgement
 
